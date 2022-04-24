@@ -1,0 +1,38 @@
+{
+  "Jira" : {
+    "prefix_url" : "",
+    "icon" : ""
+  },
+
+  "Slack" : {
+    "hook_url" : "",
+    "channel" : "",
+    "username" : ""
+  },
+
+  "Teams" : {
+  },
+  "DEFAULT" : {
+    "ID" : "", 
+    "PASSWORD" : ""
+  },
+
+  "PATH" : {
+    "Chrome" : ""
+  },
+
+  "ACCOUNT" : {
+    "Google" : {
+      "id" : "",
+      "pwd" : ""
+    },
+    "Facebook" : {
+      "id" : "",
+      "pwd" : ""
+    },
+    "Webzen" : {
+      "id" : ""
+      "pwd" : ""
+    }
+  }
+}
