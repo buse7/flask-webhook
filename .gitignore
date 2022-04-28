@@ -1,0 +1,11 @@
+/venv
+__pycache__/
+results*/
+*.pyc
+.vscode/
+*.md
+chrometemp/
+config.json
+allure-results/*
+allure-reports/*
+*.xml
