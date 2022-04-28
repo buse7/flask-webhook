@@ -16,8 +16,8 @@ with open('config.json', 'r') as cf:
 
 # scheduler setting
 scheduler = BackgroundScheduler()
-scheduler.add_job(func=pytest_schedule.authCheckerJob, trigger="interval", minutes=1)
-#scheduler.start()
+scheduler.add_job(func=pytest_schedule.authCheckerJob, trigger="interval", seconds=1)
+# scheduler.start()
 
 atexit.register(lambda: scheduler.shutdown())
 
